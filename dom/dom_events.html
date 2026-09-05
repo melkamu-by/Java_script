@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM Events</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        #box {
+            width: 200px;
+            height: 100px;
+            background-color: #3498db;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 20px 0;
+            cursor: pointer;
+            border-radius: 8px;
+        }
+        #counter { font-size: 24px; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>DOM Events</h1>
+    <p>Click count: <span id="counter">0</span></p>
+    <div id="box">Click or hover me</div>
+    <input type="text" id="nameInput" placeholder="Type your name">
+    <p id="greeting">Hello!</p>
+
+    <script src="dom_events.js"></script>
+</body>
+</html>

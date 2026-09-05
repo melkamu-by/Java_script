@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="file-list"></div>
+    <h1>JavaScript Program</h1>
+    <p>This is a simple JavaScript program that demonstrates the use of functions and arrays.</p>
+  
+  <script>
+
+const numbers = [1, 2, 3, 4, 5];
+
+for(const number of numbers) {
+    console.log(number);
+}
+
+const files = [
+    { title: "Download Note", url: "note.doc" },
+    { title: "Download Chapter 1", url: "CHAPTER 1 Introduction.pdf" },
+    { title: "Download Chapter 2", url: "CHAPTER 2 HTML OCR.pdf" },
+    { title: "Download Chapter 3", url: "CHAPTER 3 C.pdf" },
+    
+    
+  ];
+  const container = document.getElementById('file-list');
+
+  
+  files.forEach(file => {
+    const link = document.createElement('a');
+    link.href = file.url;
+    link.textContent = file.title;
+    container.appendChild(link);
+  
+  });
+
+
+  </script>
+
+</body>
+</html>

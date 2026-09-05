@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM Form</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        form { max-width: 300px; }
+        label { display: block; margin-top: 10px; }
+        input, select { width: 100%; padding: 8px; margin-top: 4px; }
+        button { margin-top: 15px; padding: 10px 20px; }
+        #result { margin-top: 20px; padding: 15px; background: #f0f0f0; border-radius: 8px; }
+    </style>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form id="regForm">
+        <label>Name: <input type="text" id="name" required></label>
+        <label>Age: <input type="number" id="age" min="1" max="120" required></label>
+        <label>Course:
+            <select id="course">
+                <option value="JavaScript">JavaScript</option>
+                <option value="Java">Java</option>
+                <option value="Python">Python</option>
+            </select>
+        </label>
+        <button type="submit">Register</button>
+    </form>
+    <div id="result"></div>
+
+    <script src="dom_form.js"></script>
+</body>
+</html>

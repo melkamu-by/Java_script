@@ -1,0 +1,25 @@
+h1{
+    color: #00ff1e;
+    font-family: FontAwesome, Helvetica, sans-serif;
+    font-size: 30px;
+    border: 2px solid #00ff1e;
+}
+p{
+    color: hsl(250, 100%, 50%);
+    font-family: cursive, sans-serif;
+    font-size: 20px;
+}
+a{
+    margin: 10px;
+    font-family: cursive, sans-serif;
+    
+}
+    
+a:nth-child(1) { color: red; }
+
+a:nth-child(2) { color: green; }
+
+a:nth-child(3) { color: orange; }
+
+a:nth-child(4) { color: purple; }
+
