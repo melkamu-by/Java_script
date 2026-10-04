@@ -23,13 +23,49 @@ This folder contains a growing set of JavaScript projects covering:
 
 ---
 
-## 🗂️ Project List
+## 🗂️ Projects
 
-| # | Project Name | Description | Status |
-|---|--------------|--------------|--------|
-| 1 | _Coming soon_ | _Description goes here_ | 🚧 In Progress |
+### 🧮 [Calculator](./calculator)
+A fully functional calculator built with vanilla JavaScript, HTML, and CSS.
 
-> 💡 *This table will be updated as new projects are added. Stay tuned!*
+**Features:**
+- Basic arithmetic operations: addition, subtraction, multiplication, division, and modulo
+- Live display showing current input and running operation
+- Keyboard support — use number keys, operators, `Enter`/`=` to calculate, `Escape` to clear, and `Backspace` to delete
+- Chained calculations (e.g. perform multiple operations in sequence)
+- Handles edge cases like division by zero with an "Error" display
+- Clear (`AC`) and delete (`DEL`) functionality
+
+**Files:** `index.html` · `style.css` · `calculator.js`
+
+---
+
+### 🐍 [Snake Game](./snake_game)
+A classic Snake game recreated with JavaScript and HTML5 Canvas.
+
+**Features:**
+- Smooth canvas-based rendering and game loop
+- Keyboard-controlled movement (arrow keys)
+- Growing snake mechanic as food is eaten
+- Collision detection (walls & self)
+- Score tracking
+- Simple, retro-style UI
+
+**Files:** `index.html` · `style.css` · `snake.js`
+
+---
+
+### ✅ [To-Do List](./todo_list)
+A clean and simple to-do list app for managing daily tasks.
+
+**Features:**
+- Add new tasks dynamically
+- Mark tasks as complete/incomplete
+- Delete tasks from the list
+- DOM manipulation to update the UI in real time
+- Minimal, responsive design
+
+**Files:** `index.html` · `style.css` · `todo.js`
 
 ---
 
@@ -50,7 +86,7 @@ git clone https://github.com/melkamu-by/Java_script.git
 cd Java_script/projects
 ```
 
-Then open the relevant project folder and launch the `index.html` file in your browser (or use a tool like Live Server).
+Then open the relevant project folder (e.g. `calculator`, `snake_game`, or `todo_list`) and launch its `index.html` file in your browser (or use a tool like Live Server).
 
 ---
 
