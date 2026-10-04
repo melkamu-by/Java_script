@@ -107,7 +107,7 @@ This is primarily a personal learning repository, but suggestions, feedback, and
 
 ## 📬 Contact
 
-**Author:** [melkamu-by](https://github.com/melkamu-by)
+**Author:** [melkamu-belay](https://github.com/melkamu-by)
 Feel free to connect and follow along with my coding journey!
 
 ---
